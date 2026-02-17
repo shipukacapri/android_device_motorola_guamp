@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     carrier.retin.prop \
     hardware.sku.XT2083-4.prop
 
+# Lunaris Maintainer prop
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Shipu
+
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
