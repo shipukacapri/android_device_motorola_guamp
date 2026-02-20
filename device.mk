@@ -79,6 +79,11 @@ PRODUCT_PACKAGES += \
     carrier.retin.prop \
     hardware.sku.XT2083-4.prop
 
+# Infinity Specific Properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.infinity.soc=Snapdragon_662 \
+    ro.infinity.camera=48MP+2MP+2MP+8MP
+
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
