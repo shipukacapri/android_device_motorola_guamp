@@ -10,20 +10,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/guamp/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common InfinityX stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_guamp
+PRODUCT_NAME := infinity_guamp
 PRODUCT_DEVICE := guamp
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) play
 PRODUCT_MANUFACTURER := motorola
 
+INFINITY_MAINTAINER := Shipu
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="guamp_retail-user 11 RPX31.Q2-58-17-7-5 2e132 release-keys" \
-    BuildFingerprint=motorola/guamp_retail/guamp:11/RPX31.Q2-58-17-7-5/2e132:user/release-keys \
-    DeviceProduct=guamp_retail
