@@ -13,7 +13,7 @@ $(call inherit-product, device/motorola/guamp/device.mk)
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_WIDTH := 720
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := custom_guamp
