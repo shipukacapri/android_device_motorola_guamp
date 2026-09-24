@@ -55,10 +55,8 @@ PRODUCT_PACKAGES += \
     SystemUIResDevice \
     WifiResDevice \
     WifiResDeviceRetin \
-    WifiResDeviceXT2083-4
-
-# Overlay Voltage Maintainer
-PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-voltage
+    WifiResDeviceXT2083-4 \
+    InfinityUpdater
 
 # Permissions
 PRODUCT_COPY_FILES += \

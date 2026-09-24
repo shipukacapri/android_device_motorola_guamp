@@ -4,4 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_guamp.mk
+    $(LOCAL_DIR)/infinity_cebu.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_cebu-user \
+    infinity_cebu-userdebug \
+    infinity_cebu-eng
