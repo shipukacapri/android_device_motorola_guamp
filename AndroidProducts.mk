@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_cebu.mk
+    $(LOCAL_DIR)/infinity_guamp.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_cebu-user \
-    infinity_cebu-userdebug \
-    infinity_cebu-eng
+    infinity_guamp-user \
+    infinity_guamp-userdebug \
+    infinity_guamp-eng
